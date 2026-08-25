@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Solar Cargo - Pievienot konteineru</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Pievienot konteineru</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Sākums</a>
+        <a href="containers.html">Konteineri</a>
+        <a href="add-container.html">Pievienot konteineru</a>
+    </nav>
+
+    <main class="container">
+
+        <section class="forma">
+            <h2>Jauns konteiners</h2>
+
+            <form>
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id">
+
+                <label for="minerals">Minerāls:</label>
+                <input type="text" id="minerals" name="minerals">
+
+                <label for="origin">Izcelšanās bāze:</label>
+                <input type="text" id="origin" name="origin">
+
+                <label for="destination">Galamērķa bāze:</label>
+                <input type="text" id="destination" name="destination">
+
+                <label for="status">Statuss:</label>
+                <select id="status" name="status">
+                    <option value="cela">Ceļā</option>
+                    <option value="noliktava">Noliktavā</option>
+                    <option value="piegadats">Piegādāts</option>
+                </select>
+
+                <button type="submit">Saglabāt</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Solar Cargo System</p>
+    </footer>
+
+</body>
+</html>
